@@ -6,6 +6,12 @@ output:
   pdf_document: default
 ---
 
+__Download the R Markdown file for this document here:__
+
+> `https://github.com/sa421-usna/lesson-12/zipball/master`
+
+\ 
+
 ```{r setup}
 # Required packages
 library(knitr)
@@ -23,7 +29,7 @@ library(ggplot2)
 
 # Setup - installing MiKTeX
 
-- [MiKTeX](https://miktex.org) is a distribution of [LaTeX](https://www.latex-project.org) for Windows.
+- [MiKTeX](https://miktex.org) is a distribution of [LaTeX](https://www.latex-project.org) (prounounced "lay-tek" or "lah-tek") for Windows.
 
 - LaTeX is a typesetting system commonly used by mathematicians, engineers, physicists, and others.
 
@@ -57,7 +63,7 @@ print("Here's another chunk.")
 
 ![](jaamsim-screenshot.png)\ 
 
-- Note the extra `\ ` at the end of the line. This prevents a caption from appearing.
+- Note the extra `\ ` (backslash + space) at the end of the line. This prevents a caption from appearing.
 
 - If you want to resize your images or include a caption, try the method below instead.
 
@@ -117,7 +123,9 @@ kable(summary, col.names = c('Number of levels',
 
 # What else?
 
-- There are many things you can do to make your R Markdown documents look nice and professional. Google is your friend, but be aware that sometimes the top results don't give the best or easiest way to accomplish something. 
+- There are many other things you can do to make your R Markdown documents look nice and professional. 
+
+- Google is your friend, but be aware that sometimes the top results don't give the best or easiest way to accomplish something. 
 
 - Chunk options: `https://yihui.name/knitr/options/`
 
